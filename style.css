@@ -1,0 +1,427 @@
+body{
+    background-image : url("pic/fude01.png"),url("pic/wallp.jpg");
+    background-repeat : no-repeat,repeat;
+    background-position : -50px 125px, left top;
+	text-align:center;
+	font-family:"メイリオ","ＭＳ Ｐゴシック",Osaka,"ヒラギノ角ゴ Pro W3"; 
+	font-size:100%;
+	margin: 0px;
+}
+
+a img {
+    border-style:none;
+}
+
+
+#wrap{
+	width:950px;
+	margin:0 auto;
+	text-align:center;
+    line-height: 120%;
+    color: #333;
+/*	border:solid 1px #333;*/
+}
+
+/*ヘッダーメニューの設定*/
+.homenavi{
+    width: 950px;
+    height: 110px;
+	padding: 10px 0px 0px 0px;
+/*    background : rgba(250,250,250,0.5);*/
+}
+
+/*ロゴ画像表示部分*/
+#shoplogo{
+    margin: 0;
+    padding: 0;
+/*    background : rgba(250,0,0,1);*/
+}
+
+/* メニューボタンの設定 */
+.container {
+    width: 950px;
+    height: 38px;
+	font-family: "ＭＳ Ｐ明朝",細明朝体,serif;
+	font-weight:bold;
+    position: relative;
+    border-right: 1px solid rgba(185,120,30,0.5);
+	margin :10px 0px 0px 0px;
+/*    background : rgba(250,250,250,1);*/
+}
+
+.menu {
+    height: 38px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    width: 235px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    border-left: 1px solid rgba(185,120,30,0.5);
+
+}
+
+ul li a {
+	padding: 2px 0px 2px 0px;	
+    text-align: center;
+    line-height: 38px;
+}
+ 
+ul li a:hover {
+    border-bottom: 1px solid #b9781e;
+}
+
+ul li.active a{
+    border-bottom: 1px solid #b9781e;
+}
+
+
+/* 各ページのバナー部分 */
+.pagebanner {
+	padding:2px 0px 0px 0px;
+	margin: 0px;
+	vertical-align: text-bottom;
+	line-height:0;
+}
+
+
+/* フッター部分の設定 */
+#foot {
+/*	border-top:solid 1px #333; */
+	padding:10px;
+	color: #b9781e;
+	font-size:75%;
+	margin:0 0 15px 0;
+}
+
+#inquiryTel{
+	color: #000000;
+}
+
+
+
+/*--------------------------
+		manuPage
+--------------------------*/
+.mainbox{
+	width :810px;
+	margin: 0 auto;  
+	padding:2px 0px 0px 0px;
+/*    background : rgba(0,250,0,1); */
+}
+
+/*見出し用設定*/
+.HeadingLine {
+	width :810px;
+	padding: 5px 0px 5px 20px;
+    color: #7e4c00;
+	font-weight:bold;
+	font-size:110%;
+    background : rgba(255,203,118,0.5);
+	text-align:left;
+}
+
+/*おすすめメニュー用要素*/
+.ssmenuList{
+	width :700px;
+	padding: 0px 0px 20px 0px;
+	margin: 0px auto;
+}
+
+.ssmenuItem {
+	padding: 0px 0px;
+	list-style: none;
+	overflow: hidden;
+}
+
+.ssItemname{
+	width :499px;
+	font-size:90%;
+	padding: 20px 0px 10px 20px;
+	float: left; 
+	text-align: left;
+}
+
+.ssItemPrize{
+	width :160px;
+	font-size:90%;
+	padding: 10px 20px 10px 0px;
+        float: right; 
+	text-align: right;
+}
+
+
+/*おすすめ写真用要素*/
+.ssmenuImage{
+	width :810px;
+	padding: 0px 0px 10px 0px;
+	overflow: hidden;
+}
+
+.ssItemPhoto {
+	padding: 0px 0px;
+	list-style: none;
+        float: left;  
+}
+
+.ssItemImage{
+	width :270px;
+}
+
+.ssItemTxt{
+	width :270px;
+	font-size:75%;
+	font-weight:bold;
+    color: #7e4c00;
+}
+
+/*季節の料理要素*/
+.seasonItemTxt{
+	width :270px;
+	font-size:75%;
+	font-weight:bold;
+    color: #404040;
+}
+
+
+
+
+/*通常メニュー用要素*/
+.menuList{
+	width :700px;
+	padding: 0px 0px 10px 0px;
+	margin: 0px auto;
+}
+
+.menuItem {
+	padding: 0px 0px;
+	list-style: none;
+	overflow: hidden;
+}
+
+.Itemname{
+	width :499px;
+	font-size:90%;
+	padding: 5px 0px 5px 20px;
+    float: left; 
+	text-align: left;
+    border-bottom: 1px dotted #b9781e;
+}
+
+.ItemPrize{
+	width :160px;
+	font-size:90%;
+	padding: 5px 20px 5px 0px;
+    float: right; 
+	text-align: right;
+    border-bottom: 1px dotted #b9781e;
+}
+
+
+
+/*通常写真用要素*/
+.rmenuImage{
+	width :810px;
+	padding: 0px 0px 10px 0px;
+	overflow: hidden;
+}
+
+.rItemPhoto {
+	padding: 0px 0px;
+	list-style: none;
+        float: left;  
+}
+
+
+/*写真３毎並び用*/
+.rItemImage3{
+	width :270px;
+}
+
+.rItemTxt3{
+	width :270px;
+	font-size:75%;
+	font-weight:bold;
+    color: #7e4c00;
+}
+
+
+/*写真２毎並び用*/
+.rItemImage2{
+	width :405px;
+}
+
+.rItemTxt2{
+	width :405px;
+	font-size:75%;
+	font-weight:bold;
+    color: #7e4c00;
+}
+
+
+/*写真1毎並び用*/
+.rItemImage1{
+	width :810px;
+}
+
+.rItemTxt1{
+	width :810px;
+	font-size:75%;
+	font-weight:bold;
+    color: #7e4c00;
+}
+
+
+
+
+
+/*--------------------------
+		FeelPage
+--------------------------*/
+.FeelTopImage{
+	padding: 0px;
+	margin: -2px 0px 0px 0px;
+}
+
+.FeelDescription_main{
+	margin: -4px 0px 0px 0px;
+}
+
+.FeelDescription_L{
+	width: 950px;
+	height: 350px;
+	list-style: none;
+    background : rgba(185,120,30,0.1);
+}
+
+.FeelDescription_R{
+	width: 950px;
+	height: 340px;
+	list-style: none;
+    background : rgba(185,120,30,0.25);
+}
+
+.DescriptionTitle{
+	padding: 20px 0px 20px 0px;
+	margin: 0px;
+/*    border: 1px solid #f00;*/
+}
+
+
+.Description{
+	width: 950px;
+	height: 230px;
+/*    border: 1px solid #f0f;*/
+}
+
+.DescriptionImage{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 15px;
+	display: inline-block;
+	vertical-align: middle;
+/*    border: 1px solid #00f;*/
+}
+
+.DescriptionTXT{
+	width: 530px;
+	text-align: left;
+	margin: 0px 15px;
+	font-size:80%;
+    display: inline-block;
+    vertical-align: middle;
+   	line-height: 25px;
+/*    border: 1px solid #0f0;*/
+}
+
+
+
+/*--------------------------
+		contactPage
+--------------------------*/
+.contactBase{
+	width: 950px;
+	height: 380px;
+	margin: -2px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+    color: #7e4c00;
+    background : rgba(185,120,30,0.2);
+}
+
+.contactTitle{
+	font-size:100%;
+	margin: 0px 0px;
+	padding: 0px 0px 0px 0px;
+	position: relative;
+	top: 60px;
+}
+
+.contactBase img{
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+	position: relative;
+	top: 110px;
+}
+
+.contactTxt{
+	font-size:85%;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px;
+	position: relative;
+	top: 150px;
+	line-height: 30px;
+}
+
+/*--------------------------
+		accessPage
+--------------------------*/
+.accessTitle{
+	width: 950px;
+	padding: 0px 0px 0px 0px;
+	margin: 5px 0px;
+	overflow: hidden;
+}
+
+.accessTitle img{
+    float: left; 
+}
+
+.accessBody{
+	width: 950px;
+	overflow: hidden;
+}
+
+.Gmap{
+	margin: 5px 0px 0px 14px;
+    float: left; 
+}
+
+.accessTxt{
+	width: 450px;
+	margin: 5px 0px 0px 25px;
+	list-style: none;
+    color: #333;
+	text-align: left;
+    float: left; 
+}
+
+.accessItem{
+	width:450px;
+	font-size:90%;
+	font-weight:bold;
+    border-bottom: 1px dotted #b9781e;
+   	line-height: 15px;
+}
+
+.accessContents{
+	font-size:80%;
+   	line-height: 20px;
+	margin: 5px 0px 25px 20px;
+}
+
+
